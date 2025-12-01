@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my-protfolio</title>
   <!--css file-->
   <link rel="stylesheet" href="css/myportfolio.css">
@@ -17,23 +17,49 @@
 </head>
 <body>
   <!--start header-->
-  <div class="header">
-    <div class="container">
+  <header>
+    <div class="container1">
        <img class="logo" src="images/logo.png" alt="">
        <h3>Objective</h3>
        <h3>Education</h3>
+       <h3>My Skills</h3>
        <h3>Experience</h3>
        <h3>Projects</h3>
     </div>
-  </div>
+    <div class="container2">
+       <img class="logo" src="images/logo.png" alt="">
+       <div class="ulicone">
+        <span class="icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+       <ul>
+        <li>Objective</li>
+        <li>Education</li>
+        <li>Experience</li>
+        <li>Projects</li>
+       </ul>
+      </div>
+    </div>
+  </header>
   <!--end header-->
   <!--start landing-->
   <div class="landing">
     <div class="container">
       <p>I'm <span> Mohammad</span>,</p>
-      <p>Wep</p>
-      <p>developer</p>
-      <img class="image" src="images/myamg2.png" alt="">
+      <p>Web</p>
+      <p>Developer</p>
+      <div class="button">
+       <button>Contact Me</button>
+       <button>CV</button> 
+      </div> 
+      <div class="text">
+        <h3>Full Stack Web Developer</h3>
+        <h>A passionate web developer with a love for creating modern, clean, and high-performance websites.
+           Skilled in building seamless user experiences on the frontend and writing efficient, scalable code on the backend. Experienced in HTML, CSS, JavaScript, and PHP.</h>
+      </div>
+      <img class="image" src="images/myimage3.png" alt="">
     </div>
   </div>
   <!--end landing-->
@@ -69,47 +95,81 @@
       <div class="text">
         <p>bachelor\'s at The University of Jordan, Jordan Amman
               <br>December 2021 - January 2026
-                      <br></pre>Grade: 2.9
+                      <br>Grade: 2.9
         </p>
         <hr>
         <p>The University of Jordan (JU) is the oldest and largest public university in Jordan, established in 1962 in Amman.</p>
-        <hr>
-        <p>I studied at King Abdullah II College of Information Technology, and it is: a school at the University of Jordan that specializes in teaching computer science and modern IT fields like AI, cybersecurity, data science, and software development. It prepares students for careers in technology with updated programs and practical training.</p>
-      </div>
+     </div>
     </div>
   </div>
   <!--end Education-->
+  <!--start skills-->
+  <div class="skills">
+    <h1>My Skills</h1>
+    <div class="container">
+      <div class="skill">
+        <div class="data">
+          <i class="fas fa-pen-ruler fa-3x"></i>
+          <div class="text">
+           <h3>UI/UX</h3>
+           <p>Figma & Miro</p>
+         </div>
+        </div>
+        <div class="image">
+           <img src="images/figmalogo.png" alt="">
+        </div>
+      </div>
+      <div class="skill">
+        <div class="data">
+          <i class="fas fa-code fa-3x"></i>
+          <div class="text">
+            <h3>Front-End</h3>
+            <p>HTML,CSS and JavaScript</p>
+         </div>
+        </div>
+        <div class="image">
+           <img src="images/html&csslogo.png" alt="">
+        </div>
+      </div>
+      <div class="skill">
+        <div class="data">
+          <i class="fas fa-server fa-3x"></i>
+         <div class="text">
+           <h3>Back-End</h3>
+           <p>Java,Spring Boot and PostgreSQL</p>
+        </div>
+        </div>
+        <div class="image">
+           <img src="images/javalogo3.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--end skills-->
   <!--start Experience-->
   <div class="experience">
     <h1>Experience</h1>
     <div class="container">
       <div class="ex">
-        <i class="fas fa-pencil-ruler fa-3x"></i>
         <div class="text">
-         <h3>UI/UX</h3>
-         <p>Figma & Miro</p>
+         <h3>Orange Internship</h3>
+         <p>This was a web development internship at Orange Jordan,<br> where I gained hands-on experience in HTML, CSS, JavaScript, and PHP. <br>
+            During this internship, I created several projects—some individually and others as part of a team.</p>
         </div>
       </div>
       <div class="ex">
-        <i class="fas fa-code fa-3x"></i>
         <div class="text">
-         <h3>Front-End</h3>
-         <p>HTML,CSS and JavaScript</p>
+         <h3>Team Leader at KASIT TEAM</h3>
+         <p>I was the leader of a 200-member volunteer team at our college, <br>
+           responsible for organizing a wide range of academic, recreational, and workshop-based activities.</p>
          </div>
       </div>
       <div class="ex">
-        <i class="fas fa-server fa-3x"></i>
         <div class="text">
-         <h3>Back-End</h3>
-         <p>Java,Spring Boot and PostgreSQL</p>
-        </div>
-      </div>
-      <div class="ex">
-        <i class="fas fa-user-friends fa-3x"></i>
-        <div class="text">
-         <h3>Soft skills</h3>
-        <p>Team work, management time and team leader</p>
-        <span>I have obtained these experiences through many experiences in my life, the most important of which is volunteering in KASIT team and participating twice in the Work & Travel program.</span>
+         <h3>Participant at Work and Travel program</h3>
+         <p>It is a cultural exchange program in the United States of America,
+            I participated in this program twice, 2024/2023 .</p>
         </div>
       </div>
     </div>
@@ -120,24 +180,39 @@
     <h1>Projects</h1>
     <div class="container">
       <div class="pro">
+        <div class="image">
         <img src="images/yallalearn.jpeg" alt="">
+        </div>
         <div class="text">
         <h3>Yalla learn</h3>
         <p>UI/UX project <br> using Miro</p>
         </div>
-      </div>
-      <div class="pro">
-        <img src="images/shop.jpeg" alt="">
-        <div class="text">
-        <h3>Portfolio shop</h3>
-        <p>Font-end project <br> using HTML&CSS</p>
+        <div class="button">
+          <button>See The Project</button>
         </div>
       </div>
       <div class="pro">
+        <div class="image">
+        <img src="images/shop.jpeg" alt="">
+        </div>
+        <div class="text">
+        <h3>Portfolio shop</h3>
+        <p>Front-end project <br> using HTML&CSS</p>
+        </div>
+        <div class="button">
+          <button>See The Project</button>
+        </div>
+      </div>
+      <div class="pro">
+        <div class="image">
         <img style="background-color:rgb(201, 166, 234);" src="images/ehjezlogo.png" alt="">
+        </div>
         <div class="text">
         <h3>EHJEZ</h3>
-        <p>UI/UX,<br> front&back <br> & project</p>
+        <p>UI/UX,<br> front & back end project</p>
+        </div>
+        <div class="button">
+          <button>See The Project</button>
         </div>
       </div>
     </div>
